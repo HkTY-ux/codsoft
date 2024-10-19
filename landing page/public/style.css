@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    height: calc(100% - 60px);
+}
+
+#map-container {
+    flex: 1;
+    height: 100%;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+#search-container {
+    margin-bottom: 1rem;
+}
+
+#location-input {
+    width: 70%;
+    padding: 0.5rem;
+}
+
+#search-button {
+    width: 25%;
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.station-item {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.station-name {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.station-address, .station-distance {
+    font-size: 0.9rem;
+    color: #666;
+}
